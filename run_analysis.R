@@ -123,11 +123,4 @@ dataSetNew <- dataSetNew[order(dataSetNew$Subject,dataSetNew$Activity),]
 write.table(dataSetNew, file = "tidyDataSet.txt", row.name=FALSE)
 
 
-#### now create CodeBook. where you will sore all the details defination
-##install knitr package
-install.packages("knitr")
-library(knitr)
-
-knit2html("CodeBook.Rmd")
-
 ##END
