@@ -27,7 +27,7 @@ One of the most exciting areas in all of data science right now is wearable comp
   In this section we will donlad the file from given URL
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## unzip and extract the given raw file data
+## unzip and extract the given raw file data.
   In this Section we will unzip and read into memory
   
 ## Data clingi as per given project Request

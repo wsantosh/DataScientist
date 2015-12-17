@@ -106,6 +106,7 @@ names(combineDataForFeatCom)<-gsub("^f", "Frequency", names(combineDataForFeatCo
 names(combineDataForFeatCom)<-gsub("-freq()", "Frequency", names(combineDataForFeatCom))
 names(combineDataForFeatCom)<-gsub("angle", "Angle", names(combineDataForFeatCom))
 names(combineDataForFeatCom)<-gsub("gravity", "Gravity", names(combineDataForFeatCom))
+names(combineDataForFeatCom)
 
 ####creates a second, independent tidy data set with the average of each variable for 
 ####each activity and each subject.
