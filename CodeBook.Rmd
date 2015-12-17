@@ -41,7 +41,7 @@ download.file(fileUrl, file)
 ##unzip the file
 unzip(zipfile="./UciHarDataset.zip",exdir="./dataSet")
 
-##unzipped the file 
+##Unzipped the file 
 path_refarance <- file.path("./dataSet" , "UCI HAR Dataset")
 
 ## list all the files

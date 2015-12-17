@@ -122,5 +122,4 @@ dataSetNew <- dataSetNew[order(dataSetNew$Subject,dataSetNew$Activity),]
 ## write new dataset in table format and store in tidyDataSet.txt file
 write.table(dataSetNew, file = "tidyDataSet.txt", row.name=FALSE)
 
-
 ##END

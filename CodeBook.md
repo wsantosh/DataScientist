@@ -115,7 +115,7 @@ combineDataForSubjActi <- cbind(meargeDataForSubject, meargeDataForActivity)
 combineDataForFeatCom <- cbind(meargeDataForFeatures, combineDataForSubjActi)
 ```
 
-##take the measurements on the mean and standard devi for each
+##Take the measurements on the mean and standard devi for each
 
 ```r
 subFeaturesNamesData<-featuresDataNames$V2[grep("mean\\(\\) | std\\(\\)", featuresDataNames$V2)]
